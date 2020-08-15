@@ -2,7 +2,7 @@
 ## Objective:
 ### Using Tapestry algorithm in Elixir to construct a fault-tolerant distributed hash table for sharing files in a p2p network
 
-The projects take inspiration from the classical paper on Tapestry Algorithm->
+The projects takes inspiration from the classical paper on Tapestry Algorithm->
 Tapestry: A Resilient Global-Scale Overlay for Service Deployment by Ben Y. Zhao, Ling
 Huang, Jeremy Stribling, Sean C. Rhea, Anthony D. Joseph and John D. Kubiatowicz
 <br>
@@ -111,7 +111,7 @@ the objects which are closest to it.
 I have tested the network for 5000 nodes for 5 requests per node and 20 percent failure
 percentage.
 
-## Observation
+**Observations**
 
 I see that the network can handle failures and the max hops doesn’t increase much.
 But if failure percent is large, we might not get closest nodes that could route faster to
